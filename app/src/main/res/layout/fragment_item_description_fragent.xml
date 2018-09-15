@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#77ff0000"
+    tools:context=".ItemDescriptionFragent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/item_name_tv"
+        android:textAlignment="center"
+        android:paddingVertical="7dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_description_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30sp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/item_name_tv"
+        />
+
+
+    <TextView
+        android:id="@+id/item_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@+id/item_description_tv"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        />
+</RelativeLayout>
+
+</LinearLayout>
